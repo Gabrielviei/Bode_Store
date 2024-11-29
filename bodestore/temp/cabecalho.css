@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+body{
+    width: 100vw;
+    background-color: #000000;
+}
+
+.barra_principal{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px 5px 0px;
+}
+/*Cabecalho*/
+.cabecalho{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 50px;
+    background-color: #585858;
+    border-radius: 150px;
+}
+/*Cabecalho parte-1*/
+.parte-1{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    padding-left: 10px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 150px;
+    width: 60px;
+    height: 30px;
+}
+.home a{
+    color: azure;
+}
+.contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 150px;
+    width: 80px;
+    height: 30px;
+}
+.contatos a{
+    color: azure;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 150px;
+    width: 50px;
+    height: 30px;
+}
+.blog a{
+    color: azure;
+}
+/*Cabecalho parte-2*/
+.parte-2{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 30px;
+    padding-right: 10px;
+    color: azure;
+}
+.produtos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 150px;
+    width: 80px;
+    height: 30px;
+}
+.produtos a{
+    color: azure;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 150px;
+    width: 60px;
+    height: 30px;
+}
+.login a{
+    color: azure;
+}
+/*Cabecalho parte-2 pesquisa*/
+.pesquisa{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 200px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+    border-radius: 20px;
+}
+.pesquisa input{
+    width: 150px;
+    height: 14px;
+    border-radius: 5px;
+    border: none;
+    color: azure;
+}
+.pesquisa .material-symbols-outlined {
+    color: azure;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' -25,
+  'opsz' 20,
+}
+

@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #D9D9D9;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #434343
+    
+}
+
+.cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 800px;
+    border-radius: 12px;
+}
+.cadastro2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+    height: 700px;
+}
+.cadastro2 h1{
+    font-size: 48px;
+}
+.cadastro2 p{
+    font-size: 16px;
+}
+
+.nome input{
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+.email input{
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+.telefone input{
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+.nascimento input{
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+.senha input{
+    width: 270px;
+    height: 40px;
+}
+.senha2{
+    border-bottom: 1px solid black;
+}
+.senha2{
+    display: flex;
+}
+.senha2 img{
+    width: 20px;
+    height: 20px;
+
+}
+.confirmar-senha input{
+    width: 270px;
+    height: 40px;
+}
+
+.confirmar-senha2{
+    border-bottom: 1px solid black;
+}
+.confirmar-senha2{
+    display: flex;
+}
+.confirmar-senha2 img{
+    width: 20px;
+    height: 20px;
+
+}
+
+.avancar input{
+    width: 100px;
+    height: 40px;
+    background-color: #858585;
+    border-radius: 12px;
+    opacity: 0.8;
+}
+
+
+
+.avancar :hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.esqueceu-senha :hover{
+    color:rgb(33, 33, 224);
+}

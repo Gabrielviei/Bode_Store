@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/entrar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />    
+    <title>Document</title>
+</head>
+<body>
+    <a class="voltar" href="/src/pages/index.html">
+        <span class="material-symbols-outlined">
+            arrow_back_ios
+        </span>
+    </a>
+    
+    <form class="login">
+        <div class="login2">
+            <div class="titulo">
+                <h1>Entrar</h1>
+            </div>
+            <div class="email">
+                <p>Email</p>
+                <input type="text" id="email" name="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="senha">
+                <p>Senha</p>
+                <div class="senha2">
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+                    <button type="button" class="mostrar" onclick="mostrarSenha()">
+                        <img src="/resources/icons/senha.svg">
+                    </button>
+                </div>
+            </div>
+            <div class="botao-login">
+                <input type="button" name="botao-login" value="Fazer login" onclick="teste()">
+            </div>
+            <div class="botao-novaConta">
+                <input type="button" name="botao-novaConta" value="Criar conta" onclick="location.href = 'cadastro.html'">
+            </div>
+            <div class="esqueceu-senha">
+                    <a href="#">Esqueceu a senha?</a>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="/src/js/login.js"></script>
+</html>

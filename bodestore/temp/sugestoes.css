@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.sugestoesGeral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px 5px 0px;
+}
+.sugestoes{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    background-color: #585858;
+    border-radius: 15px;
+}
+/*CAMISAS*/ 
+.sugestaoCamisas{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.camisaSugestao{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: azure;
+    border-radius: 15px;
+}
+.camisaSugestao img{
+    width: 170px;
+    height: 170px;
+}
+
+/*BOTAS*/ 
+.sugestaoBotas{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.botaSugestao{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: azure;
+    border-radius: 15px;
+}
+.botaSugestao img{
+    width: 170px;
+    height: 170px;
+}
+
+/*PULSEIRAS*/ 
+.sugestaoPulseiras{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.pulseirasSugestao{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: azure;
+    border-radius: 15px;
+}
+.pulseirasSugestao img{
+    width: 170px;
+    height: 170px;
+}
+
+/*Configurações de estilo dos Cards*/
+.link{
+    padding: 5px;
+}

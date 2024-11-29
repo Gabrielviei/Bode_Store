@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #D9D9D9;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #434343
+}
+.voltar{
+    width: 400px;
+    background-color: #43434300;
+    .material-symbols-outlined{
+        background-color: #43434300;
+        color: azure;
+    }
+}
+.login{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+}
+.login2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    width:300px;
+    height: 400px;
+}
+.login2 h1{
+    font-size: 48px;
+}
+.login2 p{
+    font-size: 16px;
+}
+.login2 a{
+    color: black;
+}
+
+.email input{
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+.senha2 input{
+    width: 270px;
+    height: 40px;
+
+}
+.senha2{
+    border-bottom: 1px solid black;
+}
+.senha2{
+    display: flex;
+}
+.senha2 img{
+    width: 30px;
+    height: 30px;
+
+}
+.botao-login input{
+    width: 100px;
+    height: 40px;
+    background-color: #858585;
+    border-radius: 12px;
+    opacity: 0.8;
+}
+.botao-novaConta input{
+    width: 100px;
+    height: 40px;
+    background-color: #858585;
+    border-radius: 12px;
+    opacity: 0.8;
+}
+
+.botao-login :hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.botao-novaConta :hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.esqueceu-senha :hover{
+    color:rgb(33, 33, 224);
+}

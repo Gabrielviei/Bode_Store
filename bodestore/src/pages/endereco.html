@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css//endereco.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+        <form class="endereco">
+            <div class="endereco2">
+                <div class="titulo">
+                    <h1>Endereço</h1>
+                </div>
+                <div class="cep">
+                    <p>Cep</p>
+                    <input type="text" name="cep" placeholder="Digite seu cep">
+                </div>
+                <div class="cidade-estado">
+                    <div class="estado">
+                        <p>Estado</p>
+                    <select name="estados">
+                        <option value="">Selecione um estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option> 
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                    </select>
+                    </div>
+                    <div class="cidade">
+                        <p>Cidade</p>
+                    <select name="cidade">
+                        <option value="">Selecione uma cidade</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="Campinas">Campinas</option>
+                        <option value="Guarulhos">Guarulhos</option>
+                        <option value="Santos">Santos</option>
+                        <option value="São Bernardo do Campo">São Bernardo do Campo</option>
+                        <option value="São José do Rio Preto">São José do Rio Preto</option>
+                        <option value="Osasco">Osasco</option>
+                        <option value="Ribeirão Preto">Ribeirão Preto</option>
+                        <option value="Sorocaba">Sorocaba</option>
+                        <option value="Mauá">Mauá</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="bairro">
+                    <p>Bairro</p>
+                    <input type="text" name="bairro" placeholder="Digite seu bairro">
+                </div>
+                <div class="rua-numero">
+                    <div class="rua">
+                        <p>Rua</p>
+                        <input type="text" name="rua" placeholder="Digite sua rua">
+                    </div>
+                    <div class="numero">
+                        <p>Numero</p>
+                        <input type="number" name="numero" placeholder="Numero da casa">
+                    </div>
+                </div>
+                <div class="complemento">
+                    <p>complemento (opcional)</p>
+                    <input type="password" name="complemento">
+                </div>
+                <div class="trabalho-casa">
+                    <p>É seu trabalho ou casa</p>
+                    <select name="trabalho-casa">
+                        <option value="trabalho">Trabalho</option>
+                        <option value="casa">Casa</option>
+                    </select>
+                </div>
+                <div class="info-adicionais">
+                    <p>Informações adicionais (opcional)</p>
+                    <input type="text" name="informacoes-adicionais">
+                </div>
+                <div class="concluir-voltar">
+                    <div class="voltar">
+                        <input type="button" name="voltar" value="Voltar" onclick="location.href = 'cadastro.html'">
+                    </div>
+                    <div class="concluir">   
+                        <input type="button" name="concluir" value="Concluir" onclick="location.href = '#'">
+                    </div>
+                </div>
+            </div>
+        </form>
+</body>
+</html>

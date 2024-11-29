@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.barra_promocoes{
+    display: flex;
+    justify-content: center;
+}
+.promocoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    background-color: #585858;
+    border-radius: 25px;
+}
+.logoBlack{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+.promocaoCamisa{
+    font-size: 35px;
+    color: azure;
+    text-align: center;
+}
+.camisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: azure;
+    border-radius: 15px;
+    img{
+        width:300px
+    }
+}
+.blackFriday {
+    font-size: 60px;
+    font-weight: bold;
+    animation: colorAnim 10s infinite;
+}
+
+@keyframes colorAnim {
+    0% {
+        color: red;
+    }
+    25% {
+        color: orange;
+    }
+    50% {
+        color: yellow;
+    }
+    75% {
+        color: green;
+    }
+    100% {
+        color: blue;
+    }
+}
+@media (max-width:860px){
+    .blackFriday {
+        font-size: 50px;
+    }
+    .promocaoCamisa{
+        font-size: 25px;
+    }
+    @media (max-width:720px){
+        .blackFriday {
+            font-size: 40px;
+        }
+        .promocaoCamisa{
+            font-size: 20px;
+        }
+        @media (max-width:580px){
+            .blackFriday {
+                font-size: 30px;
+            }
+        }
+    }
+
+}
+
+@media (max-width:800px){
+    .camisa{
+        height: 300px;
+        img{
+            width: 200px;
+        }
+    }
+}
+@media (max-width:600px){
+    .camisa{
+        height: 200px;
+        img{
+            width: 150px;
+        }
+    }
+}
